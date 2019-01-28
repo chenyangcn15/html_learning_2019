@@ -1,0 +1,138 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>HTML Cheat sheet</title>
+	</head>
+	<body>
+		<!-- headings -->
+		<h1>heading 1</h1>
+		<h2>heading 2</h2>
+		<h3>heading 3</h3>
+		<h4>heading 4</h4>
+		<h1 title = "My Company"> about us</h1>
+		
+		<!--paragraph -->		
+		<p>
+			<strong>lorem10 </strong>Ctrl+u to see the source code of html file.
+			Ctrl+shift+j to see the console window
+		</p>
+		
+		<!--lists-->
+		<!--unorder list-->
+		<ul>
+			<li>list iterm1 </li>
+			<li>list iterm1 </li>
+			<li>list iterm1 </li>
+			<li>list iterm1 </li>
+		</ul>
+		<ol>
+			<li>list iterm1 </li>
+			<li>list iterm1 </li>
+			<li>list iterm1 </li>
+			<li>list iterm1 </li>
+		</ol>
+		
+		<!--table -->
+		<table>
+			<thead>
+				<tr> 
+					<!--th>tr is table rows</th--> 
+					<th>name</th>
+					<th>email</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<!--td>td is table data</td-->
+					<td>JONE</td>
+					<td>jone@something.com</td>					
+				</tr>
+								<tr>
+					<!--td>td is table data</td-->
+					<td>JONE</td>
+					<td>jone@something.com</td>					
+				</tr>
+								<tr>
+					<!--td>td is table data</td-->
+					<td>JONE</td>
+					<td>jone@something.com</td>					
+				</tr>
+			</tbody>
+		</table>
+		
+		<br>
+		<hr> <!--horizonal rule -->
+		<br>
+		<!--form-->
+		<form action="process.php" method="GET">
+			<div>
+			<label>first name</label>
+			<input type="text" name="first-name">
+			</div> <!--div is wrapped as a block -->
+			
+			<br>
+			<div>
+			<label>first name</label>
+			<input type="text" name="first-name" placeholder="enter first name">
+			</div>
+			
+			<br>
+			<div>
+			<label>email</label>
+			<input type="email" name="email">
+			</div>
+			
+			<br>
+			<div>
+			<label>message</label>
+			<textarea name="meassage"></textarea>
+			</div>
+			
+			<br>
+			<div>
+			<label>gender</label>
+			<select name="gender">
+				<option value="male">male</option>
+				<option value="female">female</option>
+				<option value="other">other</option>
+			</select>
+			</div>
+			
+			<br>
+				<div>
+				<label>Age:</label>
+				<input type="number" name="age" value="20">
+				</div>
+			
+			<br>
+			<div>
+			<label>Birthday:</label>
+			<input type="date" name="birthday">
+			</div>
+			<br>
+			<input type="submit" name="submit" value="Submit">
+		</form>
+		
+		<!--button-->
+		<button click= "some function" > click me</button> <!--some func in js-->
+		
+		<!--image-->
+		<!--a href="img/sample.jpg"-->
+			<img src="img/sample.jpg" alt="my sample image" width="200" height = "200">
+		<!--/a-->
+		
+		<!--quotation-->
+		<blockquote cite = "https://www.youtube.com/watch?v=UB1O30fR-EE">
+			somewords
+		</blockquote>
+		
+		<p> the <abbr title="skr skr skr">sss</abbr> is awesome</p> 
+		
+		
+		
+		
+
+		<div style="margin-top:500px"></div>
+	</body>
+</html>
+
